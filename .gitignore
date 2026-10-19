@@ -1,0 +1,22 @@
+# SSH-nøgler
+.ssh/
+id_ed25519
+id_ed25519.pub
+id_rsa
+id_rsa.pub
+*.pem
+*.key
+
+# Adgangsoplysninger
+.env
+.env.*
+!.env.example
+
+# Genererede rapporter og logfiler
+systemrapport.txt
+*.log
+
+# Midlertidige filer
+*.tmp
+*~
+.~lock.*
